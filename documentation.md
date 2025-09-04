@@ -24,3 +24,21 @@ This is my build log and reflections.
 I followed a **YouTube video tutorial** to make this project.  
 For writing this documentation, I also used **ChatGPT once**.
 
+## Documentation: Calculator in Python
+
+**Project:** Simple Calculator  
+**Tool:** Python (Trinket)  
+
+### What I Did
+- Wrote code to take numbers from the user.  
+- Added functions for +, -, ×, ÷.  
+- Used if–else to choose the operation.  
+- Printed the result back to the user.  
+
+### Challenges
+- Making sure division works without errors.  
+- Handling wrong inputs (like typing letters instead of numbers).  
+
+### Help
+I learned this project by watching a **YouTube video tutorial**.  
+I also used **ChatGPT once** to get extra explanation and documentation help.
