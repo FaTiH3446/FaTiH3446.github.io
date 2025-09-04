@@ -42,3 +42,21 @@ For writing this documentation, I also used **ChatGPT once**.
 ### Help
 I learned this project by watching a **YouTube video tutorial**.  
 I also used **ChatGPT once** to get extra explanation and documentation help.
+
+---
+layout: default
+title: Documentation
+permalink: /documentation
+---
+
+# Documentation: My GitHub Website
+
+### What I Did
+- Açık bir repo oluşturdum.  
+- `index.md`, `about.md`, `project.md`, `bigideas.md`, `documentation.md` dosyalarını ekledim.  
+- Menü ve tasarım için `_config.yml`, `styles.css`, `_layouts/default.html`, `_includes/nav.html` kullandım.  
+- Settings → Pages kısmından siteyi açtım.  
+
+### Help
+- Bir **YouTube videosu** izleyerek öğrendim.  
+- **ChatGPT’den** de yardım aldım.  
