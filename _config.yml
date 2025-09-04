@@ -1,2 +1,20 @@
-title: Fatih Eren
+title: FaTiH3446.github.io
+description: >
+  This website is created as part of my Computer Science Principles course.
+  It showcases my projects, assignments, and explorations in computing.
+
+# Tema (sen zaten Minimal kullanıyorsun)
 theme: jekyll-theme-minimal
+
+# Menü tanımı (nav.html ile bağlanıyor)
+nav:
+  - name: Home
+    url: /
+  - name: About
+    url: /about
+  - name: Projects
+    url: /project
+  - name: Big Ideas
+    url: /bigideas
+  - name: Documentation
+    url: /documentation
