@@ -59,4 +59,33 @@ permalink: /documentation
 
 ### Help
 - Bir **YouTube videosu** izleyerek öğrendim.  
-- **ChatGPT’den** de yardım aldım.  
+- **ChatGPT’den** de yardım aldım.
+- Documentation: Tic-Tac-Toe in Swift
+Project: Tic-Tac-Toe (XOX) Game
+Tool: SwiftUI
+
+What I Did
+
+Made a 3x3 board.
+
+Added turns for X and O.
+
+Checked the winner with if–else logic.
+
+Showed a message when the game ends.
+
+Added a reset button to restart the game.
+
+Challenges
+
+Making sure the same square can’t be clicked twice.
+
+Checking all win conditions correctly.
+
+Keeping track of the current player.
+
+Help
+
+I followed a YouTube video tutorial to make this project.
+
+I also used ChatGPT once for writing this documentation.
