@@ -110,4 +110,50 @@ ng TicTacToe.swift…]()
 
 
 - **Link:** <https://github.com/FaTiH3446/>
+
+# Captain America Shield Clock
+
+## 🎯 Target Audience
+**Teenagers** — This design is aimed at teens who enjoy superheroes, especially Marvel. The bold colors, clean lines, and interactive tap gesture fit their modern and stylish aesthetic.
+
+## 🎨 Design Explanation
+Our group designed a clock that mimics Captain America's shield. It uses layered red, white, and blue circles, with a white star in the center. The hour and minute hands are simple and match the clean theme. This design stands out visually while staying minimal and functional.
+
+## 🔍 FigJam Research
+We explored various analog clock ideas and superhero-themed designs. Here are three clocks that inspired us:
+1. A Marvel-themed wall clock with a shield design  
+2. A minimal Apple Watch face with superhero accents  
+3. A fan-made Captain America shield analog clock  
+
+These helped us decide on layering circles, color combinations, and including a central star.
+
+## 🧪 Features
+- Tap gesture: updates minute direction (0 → 1 → 2 → 3 → 0)  
+- Each full cycle increases the hour by 1  
+- Hour displayed below the clock  
+- Shield-style design with red, white, and blue concentric layers  
+- White star in the center using `Image(systemName: "star.fill")`  
+- SwiftUI layout using `ZStack`, `VStack`, and `@State` variables  
+- Highlights abstraction with `minuteSeg` for direction control  
+
+## 🧠 Reflection
+
+**1. Who is your target audience? Why?**  
+Teenagers — because they love superhero themes and modern aesthetics.
+
+**2. How do your design choices support this audience?**  
+Using Captain America's shield makes the clock visually fun and iconic. The interaction is simple and responsive, with a bold color scheme that appeals to teens.
+
+**3. How did research (FigJam) influence your design?**  
+Looking at superhero clock examples helped us decide to use layered circles and keep the face clean with a central star.
+
+**4. What was the most challenging part of coding?**  
+Aligning the shapes symmetrically and getting the rotation of the minute hand to match the abstraction logic was tricky at first.
+
+**5. If you had more time, what would you add?**  
+I’d add a smooth animation to the hand movements, sound effects when tapped, and maybe a shield “vibration” effect.
+
+## 🖼️ Project Folder Structure
+
+
   
