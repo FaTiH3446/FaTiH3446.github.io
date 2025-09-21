@@ -227,3 +227,69 @@ struct ContentView: View {
         }
     }
 }
+clock V1
+import SwiftUI
+struct ContentView: View {
+    @State var hour = 10
+    @State var minuteSeg = 0
+    
+    var body: some View {
+        VStack {
+            ZStack {
+                if hour % 2 == 0 {
+                    Circle()
+                        .foregroundColor(.red)
+                        .frame(width: 200, height: 200)
+                } else if hour < 12 {
+                    Circle()
+                        .foregroundColor(.yellow)
+                        .frame(width: 200, height: 200)
+                } else {
+                    Circle()
+                        .foregroundColor(.blue)
+                        .frame(width: 200, height: 200)
+                }
+                
+                Rectangle()
+                    .frame(width: 4, height: 90)
+                    .foregroundColor(.blue)
+                    .offset(y: -45)
+                    .rotationEffect(.degrees(minuteAngle(for: minuteSeg)))
+                
+                Rectangle()
+                    .frame(width: 8, height: 60)
+                    .foregroundColor(.black)
+                    .offset(y: -30)
+                
+                Circle()
+                    .frame(width: 20, height: 20)
+                    .foregroundColor(.gray)
+            }
+            .onTapGesture {
+                minuteSeg += 1
+                if minuteSeg == 4 {
+                    minuteSeg = 0
+                    hour += 1
+                }
+                if hour == 24 {
+                    hour = 0
+                }
+            }
+            .padding()
+            
+            Text("\(hour):00")
+                .font(.title)
+                .foregroundColor(.primary)
+        }
+    }
+    
+    func minuteAngle(for segment: Int) -> Double {
+        switch segment {
+        case 0: return 0
+        case 1: return 90
+        case 2: return 180
+        case 3: return 270
+        default: return 0
+        }
+    }
+}
