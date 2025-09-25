@@ -89,3 +89,5 @@ Help
 I followed a YouTube video tutorial to make this project.
 
 I also used ChatGPT once for writing this documentation.
+clock V2
+In this project, I created an analog clock that looks like Captain America's shield. I improved it by reusing and adjusting parts from my previous clock projects. Tapping the screen changes the minute direction, and after four taps, the hour increases. The + and – buttons change the hour, and the Next Minute button moves the minute hand. Double tap resets the clock to 0:00. The background color changes based on the time. The program responds to user interactions like taps and button presses, which shows event-driven programming.
