@@ -390,4 +390,42 @@ struct ContentView: View {
         }
     }
 }
+AP CSP – Topic 2.2 Data Compression
+
+ Part A – Paper Questions
+1. Lossless compression: Reduces file size without losing any information. The file can be restored exactly (PNG, ZIP).  
+2. Lossy compression: Permanently removes some data to shrink file size, with some quality loss (JPEG, MP3).  
+3. People use lossy for videos or songs because the files become much smaller and easier to share, and the quality loss is usually not noticeable.  
+4. Text needs lossless because every character matters. Losing even one symbol changes the meaning.  
+
+Part B – File Format Test (Sample)
+Format: PNG  
+Size: 3.2 MB  
+Quality Change: None  
+Type: Lossless  
+
+Format: JPEG  
+Size: 1.1 MB  
+Quality Change: Slight blur  
+Type: Lossy  
+
+Format: MP3  
+Size: 1.2 MB  
+Quality Change: Less crisp sound  
+Type: Lossy  
+
+Format: ZIP  
+Size: 2.8 MB  
+Quality Change: None  
+Type: Lossless  
+
+ Part C – Video Compression (Sample)
+Original Size: 15 MB  
+Compressed Size A: 7 MB (about 50% smaller, slight blur)  
+Compressed Size B: 4 MB (about 70% smaller, pixelation)  
+Compressed Size C: 6 MB (about 60% smaller, minor artifacts)  
+Compressed Size D: 3 MB (about 80% smaller, blocky quality)  
+
+ Reflection
+The best balance was around 60% reduction, where the video was smaller but still clear. Lossy compression is fine for music, images, and video sharing, but not for text or critical data. This shows abstraction in computer science because compression keeps only the details that matter most to humans.
 
