@@ -428,4 +428,11 @@ Compressed Size D: 3 MB (about 80% smaller, blocky quality)
 
  Reflection
 The best balance was around 60% reduction, where the video was smaller but still clear. Lossy compression is fine for music, images, and video sharing, but not for text or critical data. This shows abstraction in computer science because compression keeps only the details that matter most to humans.
+# Binary Counter Project
+
+In this project, I learned how computers use bits to represent numbers and what happens during overflow.  
+The console version helped me understand binary–decimal conversion.  
+Building the SwiftUI app connected that logic to a real interface with buttons and colors.  
+I also practiced using state variables and loops to update the display automatically.  
+Overall, this project made binary counting and overflow clear and fun to visualize.
 
