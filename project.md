@@ -113,13 +113,13 @@ ng TicTacToe.swift…]()
 
 # Captain America Shield Clock
 
-## 🎯 Target Audience
+##  Target Audience
 **Teenagers** — This design is aimed at teens who enjoy superheroes, especially Marvel. The bold colors, clean lines, and interactive tap gesture fit their modern and stylish aesthetic.
 
-## 🎨 Design Explanation
+##  Design Explanation
 Our group designed a clock that mimics Captain America's shield. It uses layered red, white, and blue circles, with a white star in the center. The hour and minute hands are simple and match the clean theme. This design stands out visually while staying minimal and functional.
 
-## 🔍 FigJam Research
+## FigJam Research
 We explored various analog clock ideas and superhero-themed designs. Here are three clocks that inspired us:
 1. A Marvel-themed wall clock with a shield design  
 2. A minimal Apple Watch face with superhero accents  
@@ -127,7 +127,7 @@ We explored various analog clock ideas and superhero-themed designs. Here are th
 
 These helped us decide on layering circles, color combinations, and including a central star.
 
-## 🧪 Features
+##  Features
 - Tap gesture: updates minute direction (0 → 1 → 2 → 3 → 0)  
 - Each full cycle increases the hour by 1  
 - Hour displayed below the clock  
@@ -136,7 +136,7 @@ These helped us decide on layering circles, color combinations, and including a 
 - SwiftUI layout using `ZStack`, `VStack`, and `@State` variables  
 - Highlights abstraction with `minuteSeg` for direction control  
 
-## 🧠 Reflection
+##  Reflection
 
 **1. Who is your target audience? Why?**  
 Teenagers — because they love superhero themes and modern aesthetics.
@@ -427,7 +427,9 @@ Compressed Size C: 6 MB (about 60% smaller, minor artifacts)
 Compressed Size D: 3 MB (about 80% smaller, blocky quality)  
 
  Reflection
-The best balance was around 60% reduction, where the video was smaller but still clear. Lossy compression is fine for music, images, and video sharing, but not for text or critical data. This shows abstraction in computer science because compression keeps only the details that matter most to humans.
+The best balance was around 60% reduction, where the video was smaller but still clear. Lossy compression is fine for music, images, and video sharing, but not for text or critical data. This shows abstraction in computer science because compression keeps only the details that matter most to humans
+
+
 # Binary Counter Project
 
 In this project, I learned how computers use bits to represent numbers and what happens during overflow.  
