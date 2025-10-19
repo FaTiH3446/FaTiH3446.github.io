@@ -9,3 +9,20 @@ The cone is like memory, and each scoop is stored data. It shows how storage wor
 
 Binary & Compression:
 I learned that binary has limits and can overflow. Compression helps save space, just like using bits efficiently.
+# Clock Game – Frog Escape Edition
+
+**By:** Fatih Mehmethan Eren  
+
+**How to play:**  
+Tap Start, move the frog 🐸 using Left and Right to reach the green goal zone before time runs out. Avoid the red obstacles.
+
+**Hardest part:**  
+Keeping the timer and the obstacle movement synchronized correctly.
+
+**How I used if, for, and functions:**  
+- `if` controls time up, collisions, and level transitions  
+- `for` loops move and spawn obstacles  
+- functions like `startLevel()`, `nextLevel()`, and `overflowReset()` keep the code organized  
+
+**Overflow behavior:**  
+When the timer hits 0, the game resets the level and restarts the countdown.
