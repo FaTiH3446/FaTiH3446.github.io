@@ -451,3 +451,8 @@ Building the SwiftUI app connected that logic to a real interface with buttons a
 I also practiced using state variables and loops to update the display automatically.  
 Overall, this project made binary counting and overflow clear and fun to visualize.
 
+
+
+
+Ice cream  over flow
+[My App copy 21.swiftpm.zip](https://github.com/user-attachments/files/23064188/My.App.copy.21.swiftpm.zip)
