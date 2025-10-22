@@ -39,3 +39,7 @@ This reflection covers Big Idea 2 topics: Binary Numbers, Data Compression, Extr
 The topic I found most interesting was Data Compression because it connects computer science to real world problems like storage and speed.  
 Overall, I learned how data drives everything in computing.
 
+
+
+https://github.com/user-attachments/assets/f35bb111-5a72-47d4-84ca-cb7753192f87
+
