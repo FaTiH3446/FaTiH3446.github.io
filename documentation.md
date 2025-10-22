@@ -116,3 +116,37 @@ I watched a YouTube tutorial to understand how to build a calculator in Python.
 I worked with my teammates to test and improve the program together.
 
 I also used ChatGPT for extra explanations, debugging advice, and help writing this documentation.
+
+Documentation: TicTacToe in Swift
+Project: TicTacToe Game
+Tool: Swift / Xcode
+
+What I Did
+Created a simple TicTacToe game using Swift and SwiftUI.
+
+Designed a 3×3 game board with buttons for each cell.
+
+Added game logic to check for wins, draws, and turns between “X” and “O”.
+
+Displayed a message when a player wins or when the game ends in a draw.
+
+Included a reset button to start a new round.
+
+Challenges
+Understanding how to update the board using @State variables in SwiftUI.
+
+Detecting a winner with different combinations of rows, columns, and diagonals.
+
+Making sure the game resets correctly without crashing or keeping old data.
+
+Help
+I watched a few YouTube tutorials about building TicTacToe in Swift to learn how to structure the game logic and interface.
+
+I used ChatGPT to get extra help writing this documentation 
+
+What I Learned
+How to manage game data and update the UI in real time with SwiftUI.
+
+How simple logic and condition checks can create an interactive game.
+
+How to plan, test, and debug a project while learning from mistakes.
