@@ -1,3 +1,11 @@
+Big idea 2 video
+
+
+
+https://github.com/user-attachments/assets/c6bc83b0-ec4b-47ce-8ed5-d8c9c1f4747a
+
+
+
 Big Idea 2 – Reflection Essays (2.1–2.4)
 
 This folder includes my short reflections for Big Idea 2.
