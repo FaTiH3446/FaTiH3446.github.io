@@ -91,3 +91,28 @@ I followed a YouTube video tutorial to make this project.
 I also used ChatGPT once for writing this documentation.
 clock V2
 In this project, I created an analog clock that looks like Captain America's shield. I improved it by reusing and adjusting parts from my previous clock projects. Tapping the screen changes the minute direction, and after four taps, the hour increases. The + and – buttons change the hour, and the Next Minute button moves the minute hand. Double tap resets the clock to 0:00. The background color changes based on the time. The program responds to user interactions like taps and button presses, which shows event-driven programming.
+Documentation: Calculator in Python
+
+Big idea 1 Documentation
+
+What I Did
+Wrote code to take numbers from the user.
+
+Added functions for addition, subtraction, multiplication, and division.
+
+Used if–else statements to choose the correct operation.
+
+Printed the result back to the user.
+
+Challenges
+Making sure division works without errors.
+
+Handling wrong inputs (like typing letters instead of numbers).
+
+
+Help
+I watched a YouTube tutorial to understand how to build a calculator in Python.
+
+I worked with my teammates to test and improve the program together.
+
+I also used ChatGPT for extra explanations, debugging advice, and help writing this documentation.
