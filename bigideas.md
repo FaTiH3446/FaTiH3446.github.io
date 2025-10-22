@@ -38,7 +38,20 @@ README Summary
 This reflection covers Big Idea 2 topics: Binary Numbers, Data Compression, Extracting Information, and Using Programs with Data.  
 The topic I found most interesting was Data Compression because it connects computer science to real world problems like storage and speed.  
 Overall, I learned how data drives everything in computing.
+Collaborating
+We shared ideas and helped each other when coding. Everyone took part, and we worked as a team to solve problems and improve the project together.
 
+
+
+Big İdea 1
+Program Design & Development
+We started with a simple plan, decided what each part of the program should do, and tested every step. Using print statements helped us check if the code worked correctly.
+
+Program Function & Purpose
+Our goal was to make a clear, useful program that anyone could understand. We thought about how users would interact with it and organized the code to make it simple and logical.
+
+Finding & Fixing Mistakes
+We tested different cases, found errors like wrong inputs or logic problems, and fixed them by checking conditions and improving the structure. Each mistake helped us learn and make the program stronger.
 
 
 https://github.com/user-attachments/assets/f35bb111-5a72-47d4-84ca-cb7753192f87
