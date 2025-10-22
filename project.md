@@ -10,6 +10,14 @@ Here are some projects. I’ll add repos, screenshots, and write-ups.
 Self portrait
 [My App copy 28.swiftpm.zip](https://github.com/user-attachments/files/23064071/My.App.copy.28.swiftpm.zip)
 
+Calculator On swift
+
+[My App copy 10.swiftpm.zip](https://github.com/user-attachments/files/23064103/My.App.copy.10.swiftpm.zip)
+
+
+
+
+
 ### Scratch Project[Scratch Project.html](https://github.com/user-attachments/files/23063186/Scratch.Project.html)
 
 - **What I built:** 
