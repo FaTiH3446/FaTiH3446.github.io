@@ -456,3 +456,12 @@ Overall, this project made binary counting and overflow clear and fun to visuali
 
 Ice cream  over flow
 [My App copy 21.swiftpm.zip](https://github.com/user-attachments/files/23064188/My.App.copy.21.swiftpm.zip)
+Reflection
+Overflow:
+It happens when I add more than 5 scoops. The cone resets to empty, just like a computer counter starting over after reaching its limit.
+
+Abstraction:
+The cone is like memory, and each scoop is stored data. It shows how storage works in a simple way.
+
+Binary & Compression:
+I learned that binary has limits and can overflow. Compression helps save space, just like using bits efficiently.
