@@ -10,7 +10,7 @@ Here are some projects. I’ll add repos, screenshots, and write-ups.
 Self portrait
 [My App copy 28.swiftpm.zip](https://github.com/user-attachments/files/23064071/My.App.copy.28.swiftpm.zip)
 
-Calculator On swift
+tic tac toe On swift
 
 [My App copy 10.swiftpm.zip](https://github.com/user-attachments/files/23064103/My.App.copy.10.swiftpm.zip)
 
