@@ -7,7 +7,7 @@ permalink: /project
 Here are some projects. I’ll add repos, screenshots, and write-ups.
 
 ### Scratch Project
-- **What I built:** https://drive.google.com/file/d/16Rm_oKNtZt1SmPkFUtUKeTnwOsrUs-xg/view?usp=sharing
+- **What I built:** 
 - **What I learned:** - How to use **if–else conditions** to check the winner.  
 - The importance of using **variables and lists** to keep track of turns (X or O).  
 - How to make the game **interactive** with clicks and costumes.  
