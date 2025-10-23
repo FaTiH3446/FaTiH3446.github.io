@@ -166,6 +166,11 @@ Aligning the shapes symmetrically and getting the rotation of the minute hand to
 **5. If you had more time, what would you add?**  
 I’d add a smooth animation to the hand movements, sound effects when tapped, and maybe a shield “vibration” effect.
 
+
+https://github.com/user-attachments/assets/57bcad3e-3248-4e85-81c6-15884b02d05d
+
+
+
 import SwiftUI
 
 struct ContentView: View {
