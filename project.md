@@ -486,5 +486,6 @@ Clock v5
 
 [My App copy 17.swiftpm.zip](https://github.com/user-attachments/files/23064675/My.App.copy.17.swiftpm.zip)
 
-
+AP CSPTopic 2.3: Extracting Information from Data
+https://docs.google.com/document/d/1rjfwkWjhYr1FfatEaKeoB0FxvgeTWao_V6AFM1o9xAs/edit?usp=sharing
 
