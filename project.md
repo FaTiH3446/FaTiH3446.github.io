@@ -519,7 +519,7 @@ When the timer hits 0, the game resets the level and restarts the countdown.
 
 [My App copy 25.swiftpm (1).zip](https://github.com/user-attachments/files/23068070/My.App.copy.25.swiftpm.1.zip)
 
-
+Hot Chocolate Machine
 START
 PROCEDURE hotChocolateMachine
     SET startTemp ← 20
@@ -543,4 +543,5 @@ END PROCEDURE
 CALL hotChocolateMachine
 END
 
+[My App copy 34.swiftpm.zip](https://github.com/user-attachments/files/23106521/My.App.copy.34.swiftpm.zip)
 
