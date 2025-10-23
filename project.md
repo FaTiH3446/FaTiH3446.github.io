@@ -481,4 +481,9 @@ I learned that binary has limits and can overflow. Compression helps save space,
 
 https://github.com/user-attachments/assets/49742dd8-d044-485e-a51e-57c1ba7a470c
 
+Clock v5
+
+[My App copy 17.swiftpm.zip](https://github.com/user-attachments/files/23064675/My.App.copy.17.swiftpm.zip)
+
+
 
