@@ -150,3 +150,27 @@ How to manage game data and update the UI in real time with SwiftUI.
 How simple logic and condition checks can create an interactive game.
 
 How to plan, test, and debug a project while learning from mistakes.
+
+
+Documentation: Ice Cream Overflow App
+Project: Ice Cream Overflow
+Tool: SwiftUI (Xcode)
+
+🍦 What I Did
+Used SwiftUI to draw a cone and add scoops.
+
+Added “Add Scoop” and “Reset” buttons.
+
+Used if–else to limit scoops to 5.
+
+Showed overflow by resetting after 5 scoops.
+
+⚙️ Challenges
+Making the scoops stack neatly.
+
+Resetting correctly after overflow.
+
+💡 Help
+I learned this project by watching a YouTube video tutorial.
+I also got help from my friends during coding.
+I used ChatGPT to write and organize this documentation.
