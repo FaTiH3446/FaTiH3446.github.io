@@ -519,3 +519,28 @@ When the timer hits 0, the game resets the level and restarts the countdown.
 
 [My App copy 25.swiftpm (1).zip](https://github.com/user-attachments/files/23068070/My.App.copy.25.swiftpm.1.zip)
 
+
+START
+PROCEDURE hotChocolateMachine
+    SET startTemp ← 20
+    SET temp ← startTemp
+    FOR minute ← 1 TO 20
+        SET temp ← temp + 5
+        DISPLAY "Minute " + minute + ": " + temp + "°C"
+        IF temp < 50 THEN
+            DISPLAY "→ The drink is still cold."
+        ELSE IF temp <= 70 THEN
+            DISPLAY "→ The drink is ready to serve!"
+        ELSE IF temp <= 80 THEN
+            DISPLAY "→ Too hot! Wait before drinking."
+        ELSE
+            DISPLAY "⚠ Machine auto-stop activated!"
+            BREAK
+        END IF
+    END FOR
+    DISPLAY "Total temperature change: " + (temp - startTemp) + "°C"
+END PROCEDURE
+CALL hotChocolateMachine
+END
+
+
