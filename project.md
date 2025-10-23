@@ -454,8 +454,12 @@ Overall, this project made binary counting and overflow clear and fun to visuali
 
 
 
-Ice cream  over flow
+ICE CREAM Over Flow
 [My App copy 21.swiftpm.zip](https://github.com/user-attachments/files/23064188/My.App.copy.21.swiftpm.zip)
+
+
+
+
 Reflection
 Overflow:
 It happens when I add more than 5 scoops. The cone resets to empty, just like a computer counter starting over after reaching its limit.
