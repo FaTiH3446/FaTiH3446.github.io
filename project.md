@@ -462,7 +462,9 @@ Overall, this project made binary counting and overflow clear and fun to visuali
 
 [My App copy 19.swiftpm.zip](https://github.com/user-attachments/files/23064940/My.App.copy.19.swiftpm.zip)
 
-
+https://docs.google.com/document/d/16FJ7XD2yxeKUuaDaUOL2xlwP__sXgtpdLvQiflF0u0I/edit?usp=sharing
+https://docs.google.com/document/d/1esUxDj79OM_zCdE1trK451bEu17z1cQYXNhH8-ottVI/edit?usp=sharing
+https://docs.google.com/document/d/1ZHfd4Hqq97VU-zDTRfh0j3GyByq1HUQsihLbiK1SLy4/edit?usp=sharing
 
 ICE CREAM Over Flow
 [My App copy 21.swiftpm.zip](https://github.com/user-attachments/files/23064188/My.App.copy.21.swiftpm.zip)
