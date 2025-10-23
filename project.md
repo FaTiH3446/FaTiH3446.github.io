@@ -469,3 +469,7 @@ The cone is like memory, and each scoop is stored data. It shows how storage wor
 
 Binary & Compression:
 I learned that binary has limits and can overflow. Compression helps save space, just like using bits efficiently.
+
+https://github.com/user-attachments/assets/49742dd8-d044-485e-a51e-57c1ba7a470c
+
+
