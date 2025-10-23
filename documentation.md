@@ -174,3 +174,37 @@ Resetting correctly after overflow.
 I learned this project by watching a YouTube video tutorial.
 I also got help from my friends during coding.
 I used ChatGPT to write and organize this documentation.
+
+
+
+Documentation: Calculator in Swift
+Project: Simple Calculator
+Tool: Swift / Xcode
+
+What I Did
+Created a simple calculator app using Swift.
+
+Added basic operations: addition, subtraction, multiplication, and division.
+
+Designed a simple user interface with text fields and buttons.
+
+Displayed the result on the screen after each calculation.
+
+Challenges
+Making sure the division function didn’t cause errors when dividing by zero.
+
+Handling invalid inputs like empty text fields or non-numeric values.
+
+Updating the displayed result correctly after each operation.
+
+Help
+Watched YouTube tutorials to understand how to connect buttons and labels in Swift.
+
+Used ChatGPT to get help with debugging and writing this documentation.
+
+What I Learned
+How to handle user input and display results in Swift.
+
+How basic math operations can be implemented in code.
+
+The importance of checking for errors and testing
