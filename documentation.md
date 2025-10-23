@@ -208,3 +208,50 @@ How to handle user input and display results in Swift.
 How basic math operations can be implemented in code.
 
 The importance of checking for errors and testing
+
+
+
+# ⏰ Clock Game – Frog Escape Edition documentation
+
+### 🎮 Project Overview
+This project is an upgraded version of my previous Clock Game.  
+In this version, I added a moving character (frog 🐸) and obstacles that fall from the top.  
+The player must move the frog to the goal zone before time runs out — without touching any red obstacles.  
+Each level gets harder because the time limit becomes shorter.
+
+---
+
+### 🧩 Features
+- Real-time **countdown timer**
+- **Moving frog** controlled by Left and Right buttons
+- **Obstacles** falling randomly from above
+- **Goal area** (green zone) that advances the level
+- **Reset system**: when time reaches 0 or a collision happens, the level restarts
+- “**Level Up!**” message when you win
+- Dynamic **time bar** that shrinks with the timer
+
+---
+
+
+
+**Key Functions:**
+| Function | Purpose |
+|-----------|----------|
+| `startLevel()` | Starts or restarts the current level |
+| `nextLevel()` | Goes to the next level and decreases time |
+| `overflowReset()` | Resets the level when the timer ends |
+| `hitReset()` | Resets when the frog hits an obstacle |
+| `spawnObstacle()` | Randomly creates red obstacle blocks |
+| `gameTick()` | Updates movement and checks collisions |
+| `moveFrog(dx:maxWidth:)` | Moves the frog left or right |
+| `intersectsAnyObstacle()` | Detects collisions between frog and obstacles |
+
+---
+
+### 🔢 Logic & Algorithms
+- **If–Else:** Used for conditions like checking time, collision, or reaching the goal.  
+- **For Loops:** Used to move obstacles and spawn them continuously.  
+- **Functions:** Each main game behavior (like reset or level up) is grouped inside functions to keep code clean and organized.
+
+How Did I solve Problems
+I got help from cheat sheet and my friens and I also watced youtube videos and used chatgpt for debugging and documentation
