@@ -7,6 +7,9 @@ permalink: /project
 Here are some projects. I’ll add repos, screenshots, and write-ups.
 
 
+Calculator in Swift
+
+
 Self portrait
 [My App copy 28.swiftpm.zip](https://github.com/user-attachments/files/23064071/My.App.copy.28.swiftpm.zip)
 
