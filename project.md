@@ -491,3 +491,31 @@ Clock v5
 AP CSPTopic 2.3: Extracting Information from Data
 https://docs.google.com/document/d/1rjfwkWjhYr1FfatEaKeoB0FxvgeTWao_V6AFM1o9xAs/edit?usp=sharing
 
+
+
+
+
+
+
+
+# Clock Game – Frog Escape Edition
+
+**By:** Fatih Mehmethan Eren  
+
+**How to play:**  
+Tap Start, move the frog 🐸 using Left and Right to reach the green goal zone before time runs out. Avoid the red obstacles.
+
+**Hardest part:**  
+Keeping the timer and the obstacle movement synchronized correctly.
+
+**How I used if, for, and functions:**  
+- `if` controls time up, collisions, and level transitions  
+- `for` loops move and spawn obstacles  
+- functions like `startLevel()`, `nextLevel()`, and `overflowReset()` keep the code organized  
+
+**Overflow behavior:**  
+When the timer hits 0, the game resets the level and restarts the countdown.
+
+
+[My App copy 25.swiftpm (1).zip](https://github.com/user-attachments/files/23068070/My.App.copy.25.swiftpm.1.zip)
+
