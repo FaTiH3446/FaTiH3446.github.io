@@ -8,6 +8,7 @@ Here are some projects. I’ll add repos, screenshots, and write-ups.
 
 
 Calculator in Swift
+[My App copy 6.swiftpm.zip](https://github.com/user-attachments/files/23064392/My.App.copy.6.swiftpm.zip)
 
 
 Self portrait
