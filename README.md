@@ -26,3 +26,15 @@ Keeping the timer and the obstacle movement synchronized correctly.
 
 **Overflow behavior:**  
 When the timer hits 0, the game resets the level and restarts the countdown.
+
+
+
+
+1. Why did you choose this theme?
+I chose this theme because food items are simple, familiar, and easy to organize.
+
+2. What did you learn about lists?
+I learned that lists store multiple values in order and every item has an index starting from 0.
+
+3. What would change if your list had more items?
+If my list had more items, I would use loops to print them and the index numbers would increase automatically.
