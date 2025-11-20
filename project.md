@@ -546,16 +546,5 @@ END
 [My App copy 34.swiftpm.zip](https://github.com/user-attachments/files/23106521/My.App.copy.34.swiftpm.zip)
 <img width="377" height="264" alt="Screenshot 2025-11-19 at 23 22 21" src="https://github.com/user-attachments/assets/cedcd5ad-de33-4225-a70e-279b188ea8d8" />
 <img width="547" height="329" alt="Screenshot 2025-11-19 at 23 22 59" src="https://github.com/user-attachments/assets/094b6f4a-8769-46ca-8fde-95fecdd53cf9" />
-import UIKit
 
-let cities = ["London", "Tokyo", "New York", "Istanbul", "Paris", "Sydney"]
-let flags  = ["🇬🇧", "🇯🇵", "🇺🇸", "🇹🇷", "🇫🇷", "🇦🇺"]
-
-print("World Clock V1\n")
-
-for i in 0..<cities.count {
-    let city = cities[i]
-    let flag = flags[i]
-    print("\(flag) \(city)")
-}
 
