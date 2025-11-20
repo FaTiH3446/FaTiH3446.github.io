@@ -38,3 +38,6 @@ I learned that lists store multiple values in order and every item has an index 
 
 3. What would change if your list had more items?
 If my list had more items, I would use loops to print them and the index numbers would increase automatically.
+
+
+Nadin Tamer’in hikayesi beni en çok etkileyen kısmı, çok büyük ve karmaşık bir projeye değil, sadece tek bir ekran ve tek bir fikirle başlamış olmasıydı. Bu bana, yaratıcı bir projenin küçük bir ilham kıvılcımıyla başlayabileceğini gösterdi. Gelecekte ben de hem teknolojiyi hem de tasarımı birleştiren, kullanıcı deneyimine odaklanan bir Swift Playground fikri geliştirmek istiyorum.
