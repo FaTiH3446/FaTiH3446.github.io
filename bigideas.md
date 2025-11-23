@@ -64,23 +64,5 @@ We tested different cases, found errors like wrong inputs or logic problems, and
 
 https://github.com/user-attachments/assets/f35bb111-5a72-47d4-84ca-cb7753192f87
 
-Morse Code – Activity Sheet
-Big Idea 3: Data — Security & Privacy
-Purpose:
-In this activity, you will explore how messages can be encoded and decoded using Morse Code. This
-demonstrates how data can be transformed to protect privacy.
-Part 1: What is Morse Code?
-Morse Code is a system where letters are represented using dots (.) and dashes (-). It was used for
-long■distance communication and teaches the basics of encoding.
-Part 2: Decode the Message
-Use a Morse Code chart to decode the message below:
-.... . .-.. .--. / -- . / ..-. .. -. -.. / - .... . / -.- . -.--
-Space = /
-Write your decoded message here:
-_______________________________
-Solution:
-help me find the key
-Part 3: Understanding Questions
-1. Why is Morse Code not secure encryption today?
-2. What is the difference between encoding and encryption?
-3. How could you make a Morse message more secure?
+Big idea 3
+https://docs.google.com/document/d/1NnF2ZjkOOryTK7lWfVY6aLiHL9q3X98RBv1mvjNG_yg/edit?usp=sharing
