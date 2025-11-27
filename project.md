@@ -607,3 +607,8 @@ Unplugged to Coding: Cryptography Projects
 https://github.com/user-attachments/assets/4d2aac39-e561-45ac-b372-8898a68c8437
 
 
+World Clock V1 (City List Challenge)
+[city list.zip](https://github.com/user-attachments/files/23810289/city.list.zip)
+1 I chose this theme because I wanted to focus on real travel destinations from Turkey, the US, and the UK.
+2️ I learned that lists let me store multiple items in one place and access each one by its index.
+3️ If my list had more items, it would be harder to manage manually, so loops would become more important.
