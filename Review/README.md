@@ -71,6 +71,6 @@ Written Response 2b – Errors and Testing: 0
 I did not explain multiple test cases or debugging steps.
 
 Written Response 2c – Data and Procedural Abstraction: 0
-I used a function, but I did not use a strong reusable data abstraction like a list or dictionary, so this category would not earn the point.
+ I did not use a strong reusable data abstraction like a list or dictionary, so this category would not earn the point.
 
 (No code snippet required for this project.)
