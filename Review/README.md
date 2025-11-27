@@ -1,1 +1,76 @@
 # Review Section
+Review – Last 3 Projects
+
+In this review I evaluated my last three projects: Pixel Painter, Cryptography Project (Morse Code), and Caesar Cipher Activity. Each category is scored 0 or 1 point. If I did not get full points I explained why.
+
+Pixel Painter
+
+Video: 1
+I clearly explained how the 10x10 grid works, how the user chooses a number, and how the selected cell changes color.
+
+Program Requirements: 1
+My project included a 10x10 grid, lists for cells and colors, user input between 0 and 99, a button to confirm the action, and a function to update the grid.
+
+Written Response 1: 1
+I described the purpose of the program, the user input, and the output of the system.
+
+Written Response 2a – Algorithm: 1
+My algorithm used sequencing, selection, and iteration. I calculated the index with row * 10 + col and updated the cell color.
+
+Written Response 2b – Errors and Testing: 0
+I did not describe enough test cases or debugging steps, so this category would not get full credit.
+
+Written Response 2c – Data and Procedural Abstraction: 1
+I used lists to store cell colors and a function to change cell color, which shows abstraction.
+
+Code Snippet:
+ForEach(0..<10) { row in
+ForEach(0..<10) { col in
+let index = row * 10 + col
+Rectangle().fill(colors[index])
+}
+}
+
+Cryptography Project (Morse Code)
+
+Video: 1
+I explained how the unplugged activity works, how messages are encoded, and how Morse code relates to secure and efficient communication.
+
+Program Requirements: 1
+I created an activity sheet, provided the solution, added three questions, and included a small coding example.
+
+Written Response 1: 1
+I described the purpose of the project and what problem Morse code solves.
+
+Written Response 2a – Algorithm: 1
+I explained the idea of iterating through each character and finding its Morse code equivalent.
+
+Written Response 2b – Errors and Testing: 0
+I did not provide strong test case explanations, so this category does not get the point.
+
+Written Response 2c – Data and Procedural Abstraction: 1
+I used a table of Morse codes and a function to describe the encoding process, which shows abstraction.
+
+(No code snippet required for this project.)
+
+Caesar Cipher Activity
+
+Video: 0
+I did not record a video for this activity.
+
+Program Requirements: 1
+I made a Caesar cipher that shifts letters by a key and returns the encoded text.
+
+Written Response 1: 1
+I explained the input, process, and output of the Caesar cipher system.
+
+Written Response 2a – Algorithm: 1
+I described the steps of looping over each character, shifting its index, and wrapping around the alphabet.
+
+Written Response 2b – Errors and Testing: 0
+I did not explain multiple test cases or debugging steps.
+
+Written Response 2c – Data and Procedural Abstraction: 0
+I used a function, but I did not use a strong reusable data abstraction like a list or dictionary, so this category would not earn the point.
+
+(No code snippet required for this project.)
