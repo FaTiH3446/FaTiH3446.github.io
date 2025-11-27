@@ -39,5 +39,39 @@ I learned that lists store multiple values in order and every item has an index 
 3. What would change if your list had more items?
 If my list had more items, I would use loops to print them and the index numbers would increase automatically.
 
+Pixel Painter 10×10 — Simple Pseudocode
+
+
+1) Lists
+- Create a list called cells with numbers 0 to 99.
+- Create a list called cellColors with 100 items.
+  - Start all colors as gray.
+
+2) Drawing the grid (drawGrid)
+- Use a loop for rows: 0 to 9.
+- Inside it, use a loop for columns: 0 to 9.
+- For each square:
+  - index = row * 10 + column
+  - Draw a square using cellColors[index]
+  - Show the cell number (cells[index]) inside it.
+
+3) Color palette
+- Make a list of colors (example: red, purple, orange, gray).
+- Show the colors as small circles on the screen.
+- When the user taps a circle, update selectedColor.
+
+4) User input
+- Show a text field for typing a number (0–99).
+- Show a button called “Change”.
+
+5) Changing the color (changeColor)
+- When button is pressed:
+  - Try to convert the text to a number.
+  - If it is not a number → show “Invalid input”.
+  - If it is between 0 and 99:
+       cellColors[number] = selectedColor
+  - Else:
+       show “Invalid input”.
+
 
 Nadin Tamer’in hikayesi beni en çok etkileyen kısmı, çok büyük ve karmaşık bir projeye değil, sadece tek bir ekran ve tek bir fikirle başlamış olmasıydı. Bu bana, yaratıcı bir projenin küçük bir ilham kıvılcımıyla başlayabileceğini gösterdi. Gelecekte ben de hem teknolojiyi hem de tasarımı birleştiren, kullanıcı deneyimine odaklanan bir Swift Playground fikri geliştirmek istiyorum.
