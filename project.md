@@ -622,3 +622,28 @@ World Clock V1 (City List Challenge)
 1 I chose this theme because I wanted to focus on real travel destinations from Turkey, the US, and the UK.
 2️ I learned that lists let me store multiple items in one place and access each one by its index.
 3️ If my list had more items, it would be harder to manage manually, so loops would become more important.
+
+
+
+Spinner Simulation
+1. How will the program decide the color?
+First generate a random number (1–2).
+If it is 1 → choose blue.
+If it is 2 → generate a second random number.
+If the second number is 1 → choose orange.
+Else → choose purple.
+
+2. What happens when the user taps Spin?
+The spin function runs.
+It creates the random numbers, decides the color, updates the square’s color, and updates the text shown on the screen.
+
+3. Which variables does the app need?
+A variable for the selected color, a variable for the color name, and optional counters for blue, orange, and purple.
+
+4. Which part will be written as a function?
+All spinner logic goes inside the spin function so everything happens in one place each time the user spins.
+
+5. Why are nested conditionals needed?
+Because<img width="573" height="677" alt="Screenshot 2025-12-03 at 21 21 46" src="https://github.com/user-attachments/assets/4868e2b6-1a6b-447a-b370-31368b1a3744" />
+ the decision has two steps: first check for blue, and only if that fails check orange vs purple. This makes blue less likely.
+[spinner.zip](https://github.com/user-attachments/files/23915249/spinner.zip)
