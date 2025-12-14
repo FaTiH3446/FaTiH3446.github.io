@@ -647,3 +647,7 @@ All spinner logic goes inside the spin function so everything happens in one pla
 Because<img width="573" height="677" alt="Screenshot 2025-12-03 at 21 21 46" src="https://github.com/user-attachments/assets/4868e2b6-1a6b-447a-b370-31368b1a3744" />
  the decision has two steps: first check for blue, and only if that fails check orange vs purple. This makes blue less likely.
 [spinner.zip](https://github.com/user-attachments/files/23915249/spinner.zip)
+
+
+Robot Movement Simulation
+[My App copy 47.zip](https://github.com/user-attachments/files/24152906/My.App.copy.47.zip)
