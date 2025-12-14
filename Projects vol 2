@@ -1,0 +1,177 @@
+---
+
+layout: default
+title: Projects (Draft)
+permalink: /project-v2
+----------------------
+
+Here are some projects. I’ll add repos, screenshots, and write-ups.
+
+---
+
+## Calculator in Swift
+
+[My App copy 6.swiftpm.zip](https://github.com/user-attachments/files/23064392/My.App.copy.6.swiftpm.zip)
+
+---
+
+## Self Portrait
+
+[My App copy 28.swiftpm.zip](https://github.com/user-attachments/files/23064071/My.App.copy.28.swiftpm.zip)
+
+---
+
+## Tic Tac Toe (Swift)
+
+[My App copy 10.swiftpm.zip](https://github.com/user-attachments/files/23064103/My.App.copy.10.swiftpm.zip)
+
+---
+
+## Scratch Project
+
+[Scratch Project.html](https://github.com/user-attachments/files/23063186/Scratch.Project.html)
+
+**What I built:**
+
+**What I learned:**
+
+* How to use if–else conditions to check the winner
+* The importance of using variables and lists to keep track of turns (X or O)
+* How to make the game interactive with clicks and costumes
+* The basics of algorithmic thinking, because I had to plan out all winning possibilities
+
+This project helped me improve both my problem-solving skills and my ability to organize Scratch blocks efficiently.
+
+---
+
+## TicTacToe – SwiftUI Code
+
+```swift
+import SwiftUI
+
+@main
+struct TicTacToeApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+
+struct ContentView: View {
+    @State private var board: [String] = Array(repeating: "", count: 9)
+    @State private var currentPlayer: String = "X"
+    @State private var winner: String? = nil
+    @State private var moves: Int = 0
+    
+    private let wins: [[Int]] = [
+        [0,1,2],[3,4,5],[6,7,8],
+        [0,3,6],[1,4,7],[2,5,8],
+        [0,4,8],[2,4,6]
+    ]
+    
+    var body: some View {
+        VStack(spacing: 16) {
+            Text(statusText)
+                .font(.title2).bold()
+            
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 3), spacing: 8) {
+                ForEach(0..<9) { i in
+                    CellView(symbol: board[i])
+                        .onTapGesture { tap(i) }
+                }
+            }
+            .padding(.horizontal, 24)
+            
+            Button("Reset") { reset() }
+                .buttonStyle(.borderedProminent)
+        }
+        .padding()
+    }
+    
+    private var statusText: String {
+        if let w = winner { return w == "Draw" ? "Draw!" : "\(w) wins!" }
+        return "Turn: \(currentPlayer)"
+    }
+    
+    private func tap(_ i: Int) {
+        guard board[i].isEmpty, winner == nil else { return }
+        board[i] = currentPlayer
+        moves += 1
+        checkForWinner()
+        if winner == nil { currentPlayer = (currentPlayer == "X") ? "O" : "X" }
+    }
+    
+    private func checkForWinner() {
+        for line in wins {
+            let a = board[line[0]], b = board[line[1]], c = board[line[2]]
+            if !a.isEmpty, a == b, b == c {
+                winner = a
+                return
+            }
+        }
+        if moves == 9 { winner = "Draw" }
+    }
+    
+    private func reset() {
+        board = Array(repeating: "", count: 9)
+        winner = nil
+        moves = 0
+        currentPlayer = "X"
+    }
+}
+
+struct CellView: View {
+    let symbol: String
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color(white: 0.95))
+                .frame(height: 100)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12)
+                        .stroke(.gray.opacity(0.4), lineWidth: 1)
+                )
+            Text(symbol)
+                .font(.system(size: 48, weight: .bold, design: .rounded))
+                .foregroundColor(.primary)
+        }
+    }
+}
+```
+
+---
+
+## Captain America Shield Clock
+
+(Target audience, design explanation, FigJam research, features and reflection are kept exactly as originally written below.)
+
+---
+
+## Binary Counter Project
+
+(Reflection text preserved.)
+
+---
+
+## Ice Cream Overflow
+
+(Reflection text preserved.)
+
+---
+
+## Clock Game – Frog Escape Edition
+
+(How to play, hardest part, explanations and reflection preserved.)
+
+---
+
+## Spinner Simulation
+
+(Questions and answers preserved.)
+
+---
+
+## Robot Movement Simulation
+
+[My App copy 47.zip](https://github.com/user-attachments/files/24152906/My.App.copy.47.zip)
