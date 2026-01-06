@@ -18,5 +18,9 @@ nav:
     url: /bigideas
   - name: Documentation
     url: /documentation
- - name: Project v3
-    url: /projects3/
+<ul class="menu">
+  {% for item in site.nav %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.name }}</a></li>
+  {% endfor %}
+  <li><a href="/project-v3/">Project V3</a></li>
+</ul>
