@@ -123,11 +123,11 @@ struct ContentView: View {
         return lines
     }
 }
-
+```
 Project 2: Grade Checker
 
 <details> <summary><strong>Show Swift code</strong></summary>
-swift
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -169,7 +169,7 @@ struct ContentView: View {
 Project 3: Shopping Total
 
 <details> <summary><strong>Show Swift code</strong></summary>
-swift
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -210,3 +210,4 @@ struct ContentView: View {
 }
 
 </details> ```
+```
