@@ -82,9 +82,15 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 (No code snippet required for this project.)
 
 
-##Big Idea 3 – Simple Projects
 
-#Project 1 – Number Guess Game
+
+
+
+
+
+Big Idea 3 – Simple Projects
+
+Project 1 – Number Guess Game
 <details> <summary>Show Swift code</summary>
 swift
 Kodu kopyala
@@ -118,7 +124,7 @@ struct ContentView: View {
     }
 }
 </details>
-#Project 2 – Grade Checker
+Project 2 – Grade Checker
 <details> <summary>Show Swift code</summary>
 swift
 Kodu kopyala
@@ -155,7 +161,7 @@ struct ContentView: View {
     }
 }
 </details>
-#Project 3 – Shopping Total
+Project 3 – Shopping Total
 <details> <summary>Show Swift code</summary>
 swift
 Kodu kopyala
