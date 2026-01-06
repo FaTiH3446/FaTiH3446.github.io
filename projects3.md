@@ -83,7 +83,7 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 
 
 
--Big Idea 3 Review
+Big Idea 3 Review
 
 <summary><strong>Show Swift code</strong></summary>
 
