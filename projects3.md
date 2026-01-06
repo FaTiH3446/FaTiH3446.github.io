@@ -202,7 +202,7 @@ struct ContentView: View {
 
 # Pixel Painter
 [pixel.painter (2).zip](https://github.com/user-attachments/files/24458707/pixel.painter.2.zip)
-Pixel Painter 10×10 — Simple Pseudocode
+- Pixel Painter 10×10 — Simple Pseudocode
 
 Lists
 Create a list called cells with numbers 0 to 99.
@@ -227,4 +227,8 @@ When button is pressed:
 Try to convert the text to a number.
 If it is not a number → show “Invalid input”.
 If it is between 0 and 99: cellColors[number] = selectedColor
-Else: show “Invalid input”.
+Else: show “Invalid input
+
+https://github.com/user-attachments/assets/593415a3-dc4d-4e7b-9c92-6112e5cb5a3c
+
+”.
