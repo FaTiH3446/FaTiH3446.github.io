@@ -200,6 +200,31 @@ struct ContentView: View {
 
 
 
-Pixel Painter
+#Pixel Painter
 [pixel.painter (2).zip](https://github.com/user-attachments/files/24458707/pixel.painter.2.zip)
+Pixel Painter 10×10 — Simple Pseudocode
 
+Lists
+Create a list called cells with numbers 0 to 99.
+Create a list called cellColors with 100 items.
+Start all colors as gray.
+Drawing the grid (drawGrid)
+Use a loop for rows: 0 to 9.
+Inside it, use a loop for columns: 0 to 9.
+For each square:
+index = row * 10 + column
+Draw a square using cellColors[index]
+Show the cell number (cells[index]) inside it.
+Color palette
+Make a list of colors (example: red, purple, orange, gray).
+Show the colors as small circles on the screen.
+When the user taps a circle, update selectedColor.
+User input
+Show a text field for typing a number (0–99).
+Show a button called “Change”.
+Changing the color (changeColor)
+When button is pressed:
+Try to convert the text to a number.
+If it is not a number → show “Invalid input”.
+If it is between 0 and 99: cellColors[number] = selectedColor
+Else: show “Invalid input”.
