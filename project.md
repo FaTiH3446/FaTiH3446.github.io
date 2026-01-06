@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-permalink: /project
+
 ---
 
 Here are some projects. I’ll add repos, screenshots, and write-ups.
