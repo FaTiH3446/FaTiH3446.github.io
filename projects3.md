@@ -172,4 +172,51 @@ struct ContentView: View {
 
     }
 }
+```
+Simple Shopping Total
+<details>
+<summary><strong>Show Swift code</strong></summary>
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack(spacing: 10) {
+            Text("Project 3: Shopping Total")
+                .font(.title2)
+
+            ForEach(messages, id: \.self) { Text($0) }
+        }
+        .padding()
+    }
+
+    var messages: [String] {
+        let prices = [5, 8, 12]
+        let budget = 20
+
+        var total = 0
+        var lines: [String] = []
+
+        for p in prices {
+            total += p
+        }
+
+        lines.append("Total price: \(total)")
+
+        if total > budget {
+            lines.append("Over budget")
+            if total - budget <= 5 {
+                lines.append("Only a little over")
+            }
+        } else {
+            lines.append("Within budget")
+        }
+
+        return lines
+    }
+}
+
+    }
+}
 
