@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Projects V2
 permalink: /project-v2
 ---
 ---
