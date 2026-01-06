@@ -255,3 +255,41 @@ Else: show “Invalid input
 https://github.com/user-attachments/assets/593415a3-dc4d-4e7b-9c92-6112e5cb5a3c
 
 ”.
+
+
+
+
+# Robot Movement Simulation 
+[My.App.copy.47.zip](https://github.com/user-attachments/files/24459076/My.App.copy.47.zip)
+https://docs.google.com/document/d/1AdTbJNgpfBIazoKkBDOhHFhkXVLD11yuB7Kl03K1frY/edit?usp=sharing
+
+Reflection
+
+1) Purpose of the program
+
+The purpose of my program is to simulate a robot moving on the screen based on given commands. The robot follows instructions and reacts to different situations, creating a simple interactive movement 
+
+experience.
+
+
+2) Procedure with parameters
+
+One procedure in my program controls the robot’s movement using parameters such as direction and steps. This reduces complexity because the same code is reused for different movements, and the robot’s 
+
+behavior changes based on the parameter values.
+
+
+3) Main algorithm (list + loop + conditional)
+
+The main algorithm uses a list of movement commands that is processed using a for loop. Inside the loop, if/else statements check each command and decide how the robot should move, allowing the robot 
+to respond correctly to each instruction.
+
+
+4) Technical challenge
+
+A challenge I faced was preventing the robot from moving outside the screen. I solved this by adding conditionals that check the robot’s position before updating its movement.
+
+5) Nested conditionals
+
+Nested if/else statements are used when the robot needs to check multiple conditions, such as the movement direction and whether the next position is within bounds. This allows the robot to make more 
+complex decisions.
