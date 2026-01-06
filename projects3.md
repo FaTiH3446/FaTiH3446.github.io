@@ -85,6 +85,9 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 
 Big Idea 3 Review
 
+Number Guessing
+
+<details>
 <summary><strong>Show Swift code</strong></summary>
 
 ```swift
@@ -95,18 +98,18 @@ struct ContentView: View {
         VStack(spacing: 10) {
             Text("Project 1: Number Guess")
                 .font(.title2)
-            
+
             ForEach(messages, id: \.self) { Text($0) }
         }
         .padding()
     }
-    
+
     var messages: [String] {
         let secret = Int.random(in: 1...10)
         let guesses = [2, 5, 7, 9]
-        
+
         var lines: [String] = []
-        
+
         for g in guesses {
             if g == secret {
                 lines.append("Guess \(g) is correct!")
@@ -117,11 +120,11 @@ struct ContentView: View {
                 lines.append("Guess \(g) is too high")
             }
         }
-        
+
         return lines
     }
 }
 
-
     }
 }
+
