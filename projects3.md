@@ -11,6 +11,7 @@ permalink: /project-v3
 - I learned that lists allow me to store multiple values in one variable and use loops to process them efficiently.
 - If the list had more items, the program would still work the same, but loops would be even more useful to handle the data automatically.
 
+
 </div>
 
 World Clock V1 
@@ -19,4 +20,4 @@ World Clock V1
 - 2️ I learned that lists let me store multiple items in one place and access each one by its index. 
 - 3️ If my list had more items, it would be harder to manage manually, so loops would become more important.
 
-<img width="720" height="738" alt="image" src="https://github.com/user-attachments/assets/dad6dac2-2425-4e5a-bf7a-39db9cc5be0f" />
+https://github.com/user-attachments/assets/972425ff-efda-49da-957b-7c54f28893df
