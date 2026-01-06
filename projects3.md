@@ -222,10 +222,6 @@ struct ContentView: View {
     }
 }
 ```
-<details>
-
-
-
 
 
 
