@@ -82,7 +82,7 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 (No code snippet required for this project.)
 
 
-## Big Idea 3 – Simple Projects
+## Big Idea 3 – Review
 
 ---
 
@@ -96,8 +96,36 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Number Guess")
+        VStack(spacing: 10) {
+            Text("Project 1: Number Guess")
+                .font(.title2)
+
+            ForEach(messages, id: \.self) { Text($0) }
+        }
+        .padding()
+    }
+
+    var messages: [String] {
+        let secret = Int.random(in: 1...10)
+        let guesses = [2, 5, 7, 9]
+
+        var lines: [String] = []
+
+        for g in guesses {
+            if g == secret {
+                lines.append("Guess \(g) is correct!")
+                break
+            } else if g < secret {
+                lines.append("Guess \(g) is too low")
+            } else {
+                lines.append("Guess \(g) is too high")
+            }
+        }
+
+        return lines
+    }
+}
+
         }
     }
 }
