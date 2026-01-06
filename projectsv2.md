@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-permalink: /projectv2
+permalink: /project-v2
 ---
 ---
 
