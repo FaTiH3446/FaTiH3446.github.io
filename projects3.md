@@ -82,17 +82,23 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 (No code snippet required for this project.)
 
 
+## Big Idea 3 – 3 Simple Projects
+
+### Project 1: Number Guess
+
+<details>
+<summary><strong>Show Swift code</strong></summary>
+
+```swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 10) {
-            Text("Number Guess Game")
+            Text("Project 1: Number Guess")
                 .font(.title2)
 
-            ForEach(messages, id: \.self) { line in
-                Text(line)
-            }
+            ForEach(messages, id: \.self) { Text($0) }
         }
         .padding()
     }
@@ -100,33 +106,37 @@ struct ContentView: View {
     var messages: [String] {
         let secret = Int.random(in: 1...10)
         let guesses = [2, 5, 7, 9]
+
         var lines: [String] = []
 
-        for guess in guesses {
-            if guess == secret {
-                lines.append("Guess \(guess) is correct!")
+        for g in guesses {
+            if g == secret {
+                lines.append("Guess \(g) is correct!")
                 break
-            } else if guess < secret {
-                lines.append("Guess \(guess) is too low")
+            } else if g < secret {
+                lines.append("Guess \(g) is too low")
             } else {
-                lines.append("Guess \(guess) is too high")
+                lines.append("Guess \(g) is too high")
             }
         }
+
         return lines
     }
 }
 
+Project 2: Grade Checker
+
+<details> <summary><strong>Show Swift code</strong></summary>
+swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 10) {
-            Text("Grade Checker")
+            Text("Project 2: Grade Checker")
                 .font(.title2)
 
-            ForEach(messages, id: \.self) { line in
-                Text(line)
-            }
+            ForEach(messages, id: \.self) { Text($0) }
         }
         .padding()
     }
@@ -155,17 +165,20 @@ struct ContentView: View {
     }
 }
 
+</details>
+Project 3: Shopping Total
+
+<details> <summary><strong>Show Swift code</strong></summary>
+swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 10) {
-            Text("Shopping Total")
+            Text("Project 3: Shopping Total")
                 .font(.title2)
 
-            ForEach(messages, id: \.self) { line in
-                Text(line)
-            }
+            ForEach(messages, id: \.self) { Text($0) }
         }
         .padding()
     }
@@ -173,6 +186,7 @@ struct ContentView: View {
     var messages: [String] {
         let prices = [5, 8, 12]
         let budget = 20
+
         var total = 0
         var lines: [String] = []
 
@@ -194,3 +208,5 @@ struct ContentView: View {
         return lines
     }
 }
+
+</details> ```
