@@ -88,7 +88,7 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 
 
 
-Big Idea 3 – Simple Projects
+## Big Idea 3 – Simple Projects
 
 Project 1 – Number Guess Game
 <details> <summary>Show Swift code</summary>
@@ -200,7 +200,7 @@ struct ContentView: View {
 
 
 
-#Pixel Painter
+# Pixel Painter
 [pixel.painter (2).zip](https://github.com/user-attachments/files/24458707/pixel.painter.2.zip)
 Pixel Painter 10×10 — Simple Pseudocode
 
