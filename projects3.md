@@ -130,8 +130,44 @@ struct ContentView: View {
     }
 }
 
+</details>
+```
+<details> <summary><strong>Show Swift code</strong></summary>
+import SwiftUI
 
+struct ContentView: View {
+    var body: some View {
+        VStack(spacing: 10) {
+            Text("Project 2: Grade Checker")
+                .font(.title2)
 
+            ForEach(messages, id: \.self) { Text($0) }
+        }
+        .padding()
+    }
 
+    var messages: [String] {
+        let grades = [70, 85, 90]
+        var total = 0
+        var lines: [String] = []
+
+        for g in grades {
+            total += g
+        }
+
+        let average = total / grades.count
+        lines.append("Average: \(average)")
+
+        if average >= 85 {
+            lines.append("Excellent")
+        } else if average >= 70 {
+            lines.append("Good")
+        } else {
+            lines.append("Needs improvement")
+        }
+
+        return lines
+    }
+}
 
 
