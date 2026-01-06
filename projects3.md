@@ -128,8 +128,9 @@ struct ContentView: View {
     }
 }
 ```
-Grade checker
 <details>
+Grade checker
+
 <summary><strong>Show Swift code</strong></summary>
 
 ```swift
@@ -173,8 +174,9 @@ struct ContentView: View {
     }
 }
 ```
-Simple Shopping Total
 <details>
+Simple Shopping Total
+
 <summary><strong>Show Swift code</strong></summary>
 
 ```swift
@@ -220,7 +222,7 @@ struct ContentView: View {
     }
 }
 ```
-
+<details>
 
 
 
