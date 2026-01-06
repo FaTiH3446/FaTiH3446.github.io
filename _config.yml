@@ -18,3 +18,5 @@ nav:
     url: /bigideas
   - name: Documentation
     url: /documentation
+  - title: Project 3
+    url: /project-v3/
