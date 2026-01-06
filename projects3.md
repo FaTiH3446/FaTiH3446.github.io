@@ -82,11 +82,11 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 (No code snippet required for this project.)
 
 
-## Big Idea 3 – Review
+## Big Idea 3 – Simple Projects
 
 ---
 
-## Project 1 – Number Guess
+## Project 1 – Number Guess Game
 
 <details>
 <summary><strong>Show Swift code</strong></summary>
@@ -125,14 +125,6 @@ struct ContentView: View {
         return lines
     }
 }
-
-        }
-    }
-}
-
-</details>
-```
-<details> <summary><strong>Show Swift code</strong></summary>
 import SwiftUI
 
 struct ContentView: View {
@@ -169,5 +161,41 @@ struct ContentView: View {
         return lines
     }
 }
+import SwiftUI
 
+struct ContentView: View {
+    var body: some View {
+        VStack(spacing: 10) {
+            Text("Project 3: Shopping Total")
+                .font(.title2)
 
+            ForEach(messages, id: \.self) { Text($0) }
+        }
+        .padding()
+    }
+
+    var messages: [String] {
+        let prices = [5, 8, 12]
+        let budget = 20
+
+        var total = 0
+        var lines: [String] = []
+
+        for p in prices {
+            total += p
+        }
+
+        lines.append("Total price: \(total)")
+
+        if total > budget {
+            lines.append("Over budget")
+            if total - budget <= 5 {
+                lines.append("Only a little over")
+            }
+        } else {
+            lines.append("Within budget")
+        }
+
+        return lines
+    }
+}
