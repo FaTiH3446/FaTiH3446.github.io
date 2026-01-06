@@ -82,10 +82,11 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 (No code snippet required for this project.)
 
 
+## Big Idea 3 – Simple Projects
 
-Big Idea 3 Review
+---
 
-Number Guessing
+## Project 1 – Number Guess
 
 <details>
 <summary><strong>Show Swift code</strong></summary>
@@ -95,139 +96,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 10) {
-            Text("Project 1: Number Guess")
-                .font(.title2)
-
-            ForEach(messages, id: \.self) { Text($0) }
+        VStack {
+            Text("Number Guess")
         }
-        .padding()
-    }
-
-    var messages: [String] {
-        let secret = Int.random(in: 1...10)
-        let guesses = [2, 5, 7, 9]
-
-        var lines: [String] = []
-
-        for g in guesses {
-            if g == secret {
-                lines.append("Guess \(g) is correct!")
-                break
-            } else if g < secret {
-                lines.append("Guess \(g) is too low")
-            } else {
-                lines.append("Guess \(g) is too high")
-            }
-        }
-
-        return lines
     }
 }
 
-    }
-}
-```
-<details>
-Grade checker
-
-<summary><strong>Show Swift code</strong></summary>
-
-```swift
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack(spacing: 10) {
-            Text("Project 2: Grade Checker")
-                .font(.title2)
-
-            ForEach(messages, id: \.self) { Text($0) }
-        }
-        .padding()
-    }
-
-    var messages: [String] {
-        let grades = [70, 85, 90]
-        var total = 0
-        var lines: [String] = []
-
-        for g in grades {
-            total += g
-        }
-
-        let average = total / grades.count
-        lines.append("Average: \(average)")
-
-        if average >= 85 {
-            lines.append("Excellent")
-        } else if average >= 70 {
-            lines.append("Good")
-        } else {
-            lines.append("Needs improvement")
-        }
-
-        return lines
-    }
-}
-
-    }
-}
-```
-<details>
-Simple Shopping Total
-
-<summary><strong>Show Swift code</strong></summary>
-
-```swift
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack(spacing: 10) {
-            Text("Project 3: Shopping Total")
-                .font(.title2)
-
-            ForEach(messages, id: \.self) { Text($0) }
-        }
-        .padding()
-    }
-
-    var messages: [String] {
-        let prices = [5, 8, 12]
-        let budget = 20
-
-        var total = 0
-        var lines: [String] = []
-
-        for p in prices {
-            total += p
-        }
-
-        lines.append("Total price: \(total)")
-
-        if total > budget {
-            lines.append("Over budget")
-            if total - budget <= 5 {
-                lines.append("Only a little over")
-            }
-        } else {
-            lines.append("Within budget")
-        }
-
-        return lines
-    }
-}
-
-    }
-}
-```
 
 
 
 
-
-
--Pixel Painter
-[pixel.painter (1).zip](https://github.com/user-attachments/files/24458241/pixel.painter.1.zip)
 
