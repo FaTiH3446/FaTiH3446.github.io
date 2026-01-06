@@ -82,63 +82,54 @@ Written Response 2c – Data and Procedural Abstraction: 0 I did not use a stron
 (No code snippet required for this project.)
 
 
-## Big Idea 3 – 3 Simple Projects
-
-### Project 1: Number Guess
-
-<details>
-<summary><strong>Show Swift code</strong></summary>
-
-```swift
+Big Idea 3 – Simple Projects
+Project 1 – Number Guess Game
+<details> <summary>Show Swift code</summary>
+swift
+Kodu kopyala
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 10) {
-            Text("Project 1: Number Guess")
-                .font(.title2)
+        VStack {
+            Text("Number Guess Game")
 
             ForEach(messages, id: \.self) { Text($0) }
         }
-        .padding()
     }
 
     var messages: [String] {
         let secret = Int.random(in: 1...10)
-        let guesses = [2, 5, 7, 9]
-
+        let guesses = [2, 5, 7]
         var lines: [String] = []
 
         for g in guesses {
             if g == secret {
-                lines.append("Guess \(g) is correct!")
+                lines.append("Correct: \(g)")
                 break
             } else if g < secret {
-                lines.append("Guess \(g) is too low")
+                lines.append("\(g) too low")
             } else {
-                lines.append("Guess \(g) is too high")
+                lines.append("\(g) too high")
             }
         }
-
         return lines
     }
 }
-```
-Project 2: Grade Checker
-
-<details> <summary><strong>Show Swift code</strong></summary>
-```swift
+</details>
+Project 2 – Grade Checker
+<details> <summary>Show Swift code</summary>
+swift
+Kodu kopyala
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 10) {
-            Text("Project 2: Grade Checker")
-                .font(.title2)
+        VStack {
+            Text("Grade Checker")
 
             ForEach(messages, id: \.self) { Text($0) }
         }
-        .padding()
     }
 
     var messages: [String] {
@@ -146,16 +137,14 @@ struct ContentView: View {
         var total = 0
         var lines: [String] = []
 
-        for g in grades {
-            total += g
-        }
+        for g in grades { total += g }
 
-        let average = total / grades.count
-        lines.append("Average: \(average)")
+        let avg = total / grades.count
+        lines.append("Average: \(avg)")
 
-        if average >= 85 {
+        if avg >= 85 {
             lines.append("Excellent")
-        } else if average >= 70 {
+        } else if avg >= 70 {
             lines.append("Good")
         } else {
             lines.append("Needs improvement")
@@ -164,43 +153,34 @@ struct ContentView: View {
         return lines
     }
 }
-
 </details>
-Project 3: Shopping Total
-
-<details> <summary><strong>Show Swift code</strong></summary>
-```swift
+Project 3 – Shopping Total
+<details> <summary>Show Swift code</summary>
+swift
+Kodu kopyala
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 10) {
-            Text("Project 3: Shopping Total")
-                .font(.title2)
+        VStack {
+            Text("Shopping Total")
 
             ForEach(messages, id: \.self) { Text($0) }
         }
-        .padding()
     }
 
     var messages: [String] {
         let prices = [5, 8, 12]
         let budget = 20
-
         var total = 0
         var lines: [String] = []
 
-        for p in prices {
-            total += p
-        }
+        for p in prices { total += p }
 
-        lines.append("Total price: \(total)")
+        lines.append("Total: \(total)")
 
         if total > budget {
             lines.append("Over budget")
-            if total - budget <= 5 {
-                lines.append("Only a little over")
-            }
         } else {
             lines.append("Within budget")
         }
@@ -208,6 +188,4 @@ struct ContentView: View {
         return lines
     }
 }
-
-</details> ```
-```
+</details>
