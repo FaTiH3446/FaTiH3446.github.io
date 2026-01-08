@@ -38,6 +38,7 @@ Pixel Painter
 
 Video: 1 I clearly explained how the 10x10 grid works, how the user chooses a number, and how the selected cell changes color.
 
+
 Program Requirements: 1 My project included a 10x10 grid, lists for cells and colors, user input between 0 and 99, a button to confirm the action, and a function to update the grid.
 
 Written Response 1: 1 I described the purpose of the program, the user input, and the output of the system.
@@ -302,3 +303,4 @@ complex decisions.
 # FigmaV2
 
 - https://www.figma.com/make/Bw7FcnIhfAz5rsWC3qpr1W/Money-Saving-App-UI-Design?t=4zLZdM9i5SVsvfpV-20&fullscreen=1
+https://github.com/user-attachments/assets/b30a6cb7-bc46-44ce-bd31-21dc5977fbad
