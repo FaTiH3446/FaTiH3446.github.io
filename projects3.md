@@ -298,11 +298,11 @@ complex decisions.
 
 
 # FigmaScreenV1/
-- https://www.figma.com/design/RDFS2p7fqj1tnRPi4Nqe7r/Untitled?node-id=0-1&t=mhOdSDohoEMI9JkK-1
+https://www.figma.com/design/RDFS2p7fqj1tnRPi4Nqe7r/Untitled?node-id=0-1&t=mhOdSDohoEMI9JkK-1
 
 # FigmaV2
 
-- https://www.figma.com/make/Bw7FcnIhfAz5rsWC3qpr1W/Money-Saving-App-UI-Design?t=4zLZdM9i5SVsvfpV-20&fullscreen=1
+https://www.figma.com/make/Bw7FcnIhfAz5rsWC3qpr1W/Money-Saving-App-UI-Design?t=4zLZdM9i5SVsvfpV-20&fullscreen=1
 https://github.com/user-attachments/assets/b30a6cb7-bc46-44ce-bd31-21dc5977fbad
 
 # Figma V3
