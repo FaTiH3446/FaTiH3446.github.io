@@ -15,7 +15,7 @@ permalink: /project-v3/
 
 </div>
 
-World Clock V1 
+# World Clock V1 
 -[city.list (1).zip](https://github.com/user-attachments/files/24456763/city.list.1.zip)
 - I chose this theme because I wanted to focus on real travel destinations from Turkey, the US, and the UK. 
 - 2️ I learned that lists let me store multiple items in one place and access each one by its index. 
@@ -29,12 +29,12 @@ World Clock V1
 https://github.com/user-attachments/assets/972425ff-efda-49da-957b-7c54f28893df
 
 
-Review Section
-Review – Last 3 Projects
+## Review Section
+# Review – Last 3 Projects
 
 In this review I evaluated my last three projects: Pixel Painter, Cryptography Project (Morse Code), and Caesar Cipher Activity. Each category is scored 0 or 1 point. If I did not get full points I explained why.
 
-Pixel Painter
+ Pixel Painter
 
 Video: 1 I clearly explained how the 10x10 grid works, how the user chooses a number, and how the selected cell changes color.
 
