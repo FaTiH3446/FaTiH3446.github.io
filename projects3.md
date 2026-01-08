@@ -307,3 +307,7 @@ https://github.com/user-attachments/assets/b30a6cb7-bc46-44ce-bd31-21dc5977fbad
 
 # Figma V3
 https://www.figma.com/make/Bw7FcnIhfAz5rsWC3qpr1W/Money-Saving-App-UI-Design?t=4zLZdM9i5SVsvfpV-1
+
+
+https://github.com/user-attachments/assets/fc1be50e-8ec9-4a08-9696-766d8e3a2d34
+
