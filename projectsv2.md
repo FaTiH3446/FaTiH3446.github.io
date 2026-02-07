@@ -287,3 +287,58 @@ a simple robot moves left and right on a grid.
 # ROCK PAPER SCİSSORS
 
 </details>[My App copy 56.zip](https://github.com/user-attachments/files/25154660/My.App.copy.56.zip)
+
+1 Core Logic
+Rules
+Rock beats Scissors
+Paper beats Rock
+Scissors beats Paper
+If both are the same it is a tie
+
+How determineWinner works
+It first checks if both choices are the same
+If they are the same it returns tie
+If not it checks the winning combinations for the user
+If none match the user loses
+
+What randomElement does
+It picks a random item from the choices array
+This is how the computer makes a random choice
+
+2 State Management
+Role of State
+State stores values that can change while the app runs
+For example user choice computer choice result and scores
+When a State value changes the screen updates automatically
+
+How the result appears on screen
+The Text view shows the result variable
+When result changes SwiftUI refreshes the screen
+
+3 User Interaction
+How the app knows what was clicked
+Each button sends its choice into the play function
+The play function receives the selected choice
+
+What happens after selection
+The user choice is saved
+The computer generates a random choice
+The winner is calculated
+The result and score are updated
+The screen refreshes automatically
+
+Challenges
+Add a scoring system
+Create win loss and tie variables using State
+Increase them after each round
+
+Add Lizard and Spock
+Add two more choices to the array
+Update the winner rules
+
+Show last 5 games
+Create an array to store results
+Keep only the last five items
+
+Add restart button
+Reset all scores choices and result to default values
