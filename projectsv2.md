@@ -342,3 +342,7 @@ Keep only the last five items
 
 Add restart button
 Reset all scores choices and result to default values
+#  docs
+https://docs.google.com/document/d/1VDasWrkQTsGM5HvzRxcq1_mAN3ViP_QGM9ctT7X8Q1A/edit?usp=sharing
+# video
+https://drive.google.com/file/d/1cFEQ_84NkYxIt2tVbyJGoGciB-Mq7a_F/view?usp=sharing
