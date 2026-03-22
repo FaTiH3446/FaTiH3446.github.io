@@ -315,3 +315,6 @@ https://github.com/user-attachments/assets/fc1be50e-8ec9-4a08-9696-766d8e3a2d34
 
 # binary search
 [My App copy 60.zip](https://github.com/user-attachments/files/25473476/My.App.copy.60.zip)
+
+# Big idea presentation
+https://docs.google.com/presentation/d/1VVMe503iThtuW5WsEWNMIZ1JJCdvN5bRoZhSQPk9Ddc/edit?usp=sharing
