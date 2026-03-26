@@ -379,4 +379,5 @@ WHEN Clear All button is clicked
     show cleared message
 END WHEN
 
-</details>
+</details>[Uygulamam kopyası.zip](https://github.com/user-attachments/files/26290101/Uygulamam.kopyasi.zip)
+
