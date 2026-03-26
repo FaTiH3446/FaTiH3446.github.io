@@ -380,5 +380,6 @@ WHEN Clear All button is clicked
 END WHEN
 
 </details>[Uygulamam kopyası.zip](https://github.com/user-attachments/files/26290101/Uygulamam.kopyasi.zip)
+
 # figma
 https://www.figma.com/make/TOfPXsQnhoSU9ZOelnTjlp/Dark-Mode-Study-Session-Tracker?t=AmrhUm2rKKkKrCoe-1
