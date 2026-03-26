@@ -327,4 +327,54 @@ https://www.veed.io/view/3f00167c-b2ba-4ebf-a792-f26c9f4a29e3?source=Dashboard&p
 # Big idea presentation
 https://docs.google.com/presentation/d/1VVMe503iThtuW5WsEWNMIZ1JJCdvN5bRoZhSQPk9Ddc/edit?usp=sharing
 
+# Ap csp create task
+</details>
+SET sessions TO empty list
 
+FUNCTION addOrUpdateStudySession(subject, minutes)
+    IF subject is empty OR minutes is less than or equal to 0
+        show error message
+        RETURN
+    END IF
+
+    FOR each index from 0 to length of sessions - 1
+        IF sessions[index].subject matches subject
+            sessions[index].totalMinutes = sessions[index].totalMinutes + minutes
+            show updated message
+            RETURN
+        END IF
+    END FOR
+
+    ADD new record with subject and minutes to sessions
+    show added message
+END FUNCTION
+
+FUNCTION topSubject()
+    IF sessions is empty
+        RETURN "None"
+    END IF
+
+    SET bestSubject TO first subject in sessions
+    SET bestMinutes TO first totalMinutes in sessions
+
+    FOR each session in sessions
+        IF session.totalMinutes is greater than bestMinutes
+            bestMinutes = session.totalMinutes
+            bestSubject = session.subject
+        END IF
+    END FOR
+
+    RETURN bestSubject and bestMinutes
+END FUNCTION
+
+WHEN Add Session button is clicked
+    GET subject input
+    GET minutes input
+    CALL addOrUpdateStudySession(subject, minutes)
+END WHEN
+
+WHEN Clear All button is clicked
+    SET sessions TO empty list
+    show cleared message
+END WHEN
+</details>
