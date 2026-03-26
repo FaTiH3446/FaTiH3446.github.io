@@ -383,3 +383,5 @@ END WHEN
 
 # figma
 https://www.figma.com/make/TOfPXsQnhoSU9ZOelnTjlp/Dark-Mode-Study-Session-Tracker?t=AmrhUm2rKKkKrCoe-1
+video
+https://www.veed.io/view/ac04a932-f5f7-473b-9253-8bb66b3c496b?source=Dashboard&panel=share
