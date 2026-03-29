@@ -324,12 +324,11 @@ wwdc [Uygulamam.zip](https://github.com/user-attachments/files/26288326/Uygulama
 # AP CSP Unit 3
 https://docs.google.com/document/d/1WqSJ4i0NV28wO6yqI37j2tKEbgMzONt4yL2Vr470Dew/edit?usp=sharing
 https://www.veed.io/view/3f00167c-b2ba-4ebf-a792-f26c9f4a29e3?source=Dashboard&panel=share
+
 # Big idea presentation
 https://docs.google.com/presentation/d/1VVMe503iThtuW5WsEWNMIZ1JJCdvN5bRoZhSQPk9Ddc/edit?usp=sharing
 
 # Ap csp create task
-
-</details>
 
 SET sessions TO empty list
 
@@ -379,9 +378,9 @@ WHEN Clear All button is clicked
     show cleared message
 END WHEN
 
-</details>[Uygulamam kopyası.zip](https://github.com/user-attachments/files/26290101/Uygulamam.kopyasi.zip)
+[Uygulamam kopyası.zip](https://github.com/user-attachments/files/26290101/Uygulamam.kopyasi.zip)
 
 # figma
-https://www.figma.com/make/TOfPXsQnhoSU9ZOelnTjlp/Dark-Mode-Study-Session-Tracker?t=AmrhUm2rKKkKrCoe-1
-video
-https://www.veed.io/view/ac04a932-f5f7-473b-9253-8bb66b3c496b?source=Dashboard&panel=share
+ https://www.figma.com/make/TOfPXsQnhoSU9ZOelnTjlp/Dark-Mode-Study-Session-Tracker?t=AmrhUm2rKKkKrCoe-1
+video apcsp create task
+  https://www.veed.io/view/ac04a932-f5f7-473b-9253-8bb66b3c496b?source=Dashboard&panel=share
