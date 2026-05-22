@@ -410,8 +410,9 @@ https://www.veed.io/view/ac04a932-f5f7-473b-9253-8bb66b3c496b?source=Dashboard&p
 
 [APCSP FİNAL .zip](https://github.com/user-attachments/files/28162281/APCSP.FINAL.zip)
 
+<img width="327" height="630" alt="Ekran Resmi 2026-05-22 23 33 14" src="https://github.com/user-attachments/assets/3a3aec84-9cbe-4352-a64e-3be38a115746" />
 
-
+https://github.com/user-attachments/assets/5dd03290-825b-4028-938a-8fd307387e4c
 
 
  
