@@ -156,3 +156,18 @@ Reflection: I realized that two programs can give the same answer but one can be
 Main idea: Some problems cannot be solved by any algorithm for all possible cases.
 Example: A program cannot always perfectly determine whether another program will run forever.
 Reflection: I learned that computers have limits even though they are powerful. It made me think about how important it is to understand what computers can and cannot do.
+
+4.1 – The Internet
+Main idea: The Internet is a global network that connects many computers and devices.
+Example: When I open a website, my computer connects to servers through the Internet.
+Reflection: I learned that the Internet is not one single machine, but many networks working together. I still wonder how so much information travels around the world so quickly.
+
+4.2 – Fault Tolerance
+Main idea: Fault tolerance allows systems to keep working even when part of the system fails.
+Example: If one Internet path is broken, data can travel through another path.
+Reflection: I realized that the Internet is designed to be reliable by having multiple routes. It made me think about how important backup systems are in technology.
+
+4.3 – Parallel and Distributed Computing
+Main idea: Parallel and distributed computing split tasks across multiple computers or processors.
+Example: A large science project can use many computers to process data faster.
+Reflection: I learned that big problems can be solved faster when work is divided. I still wonder how computers coordinate their work without making mistakes.
