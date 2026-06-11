@@ -72,91 +72,94 @@ Big idea 3
 https://docs.google.com/document/d/1NnF2ZjkOOryTK7lWfVY6aLiHL9q3X98RBv1mvjNG_yg/edit?usp=sharing
 
 3.1 – Variables and Assignments
-Main idea: Variables store values that a program can use and change.
-Example: A game can use a variable called score to keep track of how many points the player has.
-Reflection: I learned that variables make programs more flexible because values can change while the program runs. I still wonder how large programs organize so many variables without confusion.
+Main idea: Variables store values that can change in a program.
+Example: A game uses a score variable.
+Reflection: I learned that variables help programs remember information.
 
 3.2 – Data Abstraction
-Main idea: Data abstraction helps programmers manage complex data by using structures like lists.
-Example: A music app can store a user’s favorite songs in a list.
-Reflection: I realized that lists make it easier to work with many pieces of data at once. It made me think about how apps store millions of users’ information efficiently.
+Main idea: Data abstraction organizes data using tools like lists.
+Example: A music app stores songs in a list.
+Reflection: I realized lists make large amounts of data easier to manage.
 
+3.3 – Mathematical Expressions
+Main idea: Programs use math to calculate values.
+Example: A shopping app calculates the total price.
+Reflection: I learned that math is important in many programs.
 
 3.4 – Strings
-Main idea: Strings are sequences of characters used to store and process text.
-Example: A login page can use strings to check a username and password.
-Reflection: I found it interesting that text is also data that programs can manipulate. It made me think about how search engines process huge amounts of written information.
+Main idea: Strings store text.
+Example: A login page checks a username.
+Reflection: I found it interesting that text is also stored as data.
 
 3.5 – Boolean Expressions
-Main idea: Boolean expressions are conditions that evaluate to true or false.
-Example: If a user’s password is correct, the program allows them to log in.
-Reflection: I learned that Boolean expressions help programs make decisions. I still wonder how many conditions are used in large apps like banking or social media platforms.
+Main idea: Boolean expressions are true or false conditions.
+Example: A password check returns true or false.
+Reflection: I learned that Boolean values help programs make decisions.
 
 3.6 – Conditionals
-Main idea: Conditionals allow programs to choose different actions based on conditions.
-Example: If the temperature is below 0 degrees, a weather app can show a freezing warning.
-Reflection: I realized that conditionals make programs feel smarter because they react to different situations. It made me think about how apps personalize content for each user.
+Main idea: Conditionals let programs choose what to do.
+Example: If the score is high enough, the player wins.
+Reflection: I realized conditionals make programs react to different situations.
 
 3.7 – Nested Conditionals
-Main idea: Nested conditionals are conditionals placed inside other conditionals.
-Example: A game can first check if the player is alive, then check if they have enough points to level up.
-Reflection: I learned that nested conditionals help programs handle more specific situations. I still wonder how programmers keep nested code easy to read.
+Main idea: Nested conditionals are if statements inside other if statements.
+Example: A game checks if the player is alive, then checks the score.
+Reflection: I learned they help handle more specific cases.
 
 3.8 – Iteration
-Main idea: Iteration means repeating steps using loops.
-Example: A program can use a loop to check every score in a list.
-Reflection: I learned that loops save time because programmers do not need to write the same code many times. It made me think about how loops are used in games and simulations.
+Main idea: Iteration repeats steps using loops.
+Example: A loop checks every item in a list.
+Reflection: I learned loops save time and reduce repeated code.
 
 3.9 – Developing Algorithms
-Main idea: Algorithms are step-by-step instructions used to solve problems.
-Example: A navigation app uses an algorithm to find a route from one place to another.
-Reflection: I realized that algorithms are like instructions for thinking through a problem. I still wonder how companies choose the best algorithm when there are many possible solutions.
+Main idea: Algorithms are step-by-step solutions to problems.
+Example: A map app finds the best route.
+Reflection: I realized algorithms are the logic behind programs.
 
 3.10 – Lists
-Main idea: Lists store multiple values in one organized structure.
-Example: A to-do list app can store all tasks in a list.
-Reflection: I learned that lists make it easier to add, remove, and search through data. It made me think about how social media apps organize posts, comments, and users.
+Main idea: Lists store multiple values together.
+Example: A to-do app stores tasks in a list.
+Reflection: I learned lists make data easier to search and update.
 
 3.11 – Binary Search
-Main idea: Binary search is an efficient way to find an item in a sorted list by repeatedly cutting the search area in half.
-Example: A dictionary app can use binary search to find a word faster.
-Reflection: I found it interesting that a smart algorithm can save so much time. I still wonder how much faster big websites become by using efficient searching methods.
+Main idea: Binary search quickly finds items in a sorted list.
+Example: A dictionary app finds a word faster.
+Reflection: I learned efficient algorithms can save a lot of time.
 
 3.12 – Calling Procedures
-Main idea: Procedures are reusable blocks of code that can be called when needed.
-Example: A program can have a procedure called displayMenu that shows the menu every time it is needed.
-Reflection: I learned that procedures make code cleaner and easier to reuse. It made me think about how professional programmers avoid repeating the same code.
+Main idea: Procedures are reusable parts of code.
+Example: A displayMenu procedure shows a menu.
+Reflection: I learned procedures help avoid repeated code.
 
 3.13 – Developing Procedures
-Main idea: Programmers can create their own procedures to organize code and solve smaller parts of a problem.
-Example: A calculator app can have separate procedures for addition, subtraction, multiplication, and division.
-Reflection: I realized that procedures help break big problems into smaller steps. I still wonder how programmers decide the best way to divide a program into procedures.
+Main idea: Programmers create procedures to organize code.
+Example: A calculator has separate procedures for each operation.
+Reflection: I realized procedures break big problems into smaller parts.
 
 3.14 – Libraries
-Main idea: Libraries are collections of prewritten code that programmers can use.
-Example: A programmer can use a graphics library to draw shapes instead of coding everything from scratch.
-Reflection: I learned that libraries help programmers save time and build more advanced programs. It made me think about how much modern software depends on code written by other people.
+Main idea: Libraries are collections of prewritten code.
+Example: A graphics library helps draw shapes.
+Reflection: I learned libraries help programmers save time.
 
 3.15 – Random Values
-Main idea: Programs can use random values to create unpredictable results.
-Example: A game can randomly choose where enemies appear.
-Reflection: I found it cool that randomness can make programs more interesting and realistic. I still wonder how computers create random values if they follow exact instructions.
+Main idea: Random values create unpredictable results.
+Example: A game randomly places enemies.
+Reflection: I learned randomness makes programs more interesting.
 
 3.16 – Simulations
-Main idea: Simulations use programs to model real-world situations.
-Example: A weather simulation can predict future storms.
-Reflection: I learned that simulations help people test ideas without real-world risk. It made me think about how simulations are used in science, medicine, and transportation.
+Main idea: Simulations model real-world situations.
+Example: A weather simulation predicts storms.
+Reflection: I learned simulations help test ideas safely.
 
 3.17 – Algorithmic Efficiency
-Main idea: Algorithmic efficiency measures how well an algorithm uses time and resources.
-Example: A faster search algorithm can find a name in a large database more quickly.
-Reflection: I realized that two programs can give the same answer but one can be much faster. I still wonder how programmers test efficiency in very large systems.
+Main idea: Efficiency means how fast and resource-friendly an algorithm is.
+Example: A faster search algorithm finds data quicker.
+Reflection: I realized two algorithms can work, but one can be better.
 
 3.18 – Undecidable Problems
-Main idea: Some problems cannot be solved by any algorithm for all possible cases.
-Example: A program cannot always perfectly determine whether another program will run forever.
-Reflection: I learned that computers have limits even though they are powerful. It made me think about how important it is to understand what computers can and cannot do.
-
+Main idea: Some problems cannot be solved by any algorithm.
+Example: A program cannot always know if another program will run forever.
+Reflection: I learned computers have limits.
 4.1 – The Internet
 Main idea: The Internet is a global network that connects many computers and devices.
 Example: When I open a website, my computer connects to servers through the Internet.
