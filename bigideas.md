@@ -171,3 +171,33 @@ Reflection: I realized that the Internet is designed to be reliable by having mu
 Main idea: Parallel and distributed computing split tasks across multiple computers or processors.
 Example: A large science project can use many computers to process data faster.
 Reflection: I learned that big problems can be solved faster when work is divided. I still wonder how computers coordinate their work without making mistakes.
+
+5.1 – Beneficial and Harmful Effects
+Main idea: Computing can have both positive and negative effects on people and society.
+Example: Social media helps people communicate, but it can also spread misinformation or cause privacy problems.
+Reflection: I learned that technology is not always completely good or bad. It depends on how people use it. I still wonder how companies can reduce the harmful effects of their platforms.
+
+5.2 – Digital Divide
+Main idea: The digital divide is the gap between people who have access to technology and the Internet and people who do not.
+Example: A student with fast Internet at home may have more learning opportunities than a student without reliable Internet.
+Reflection: I realized that access to technology can affect education, jobs, and communication. It made me think about how unfair it is when some people are left behind because they do not have the same digital access.
+
+5.3 – Computing Bias
+Main idea: Computing systems can show bias if the data or design used to build them is unfair.
+Example: A facial recognition program may work better for some groups than others if it was trained on limited data.
+Reflection: I learned that computers are not automatically fair just because they use data. I still wonder how programmers can test systems carefully enough to find hidden bias.
+
+5.4 – Crowdsourcing
+Main idea: Crowdsourcing uses the help or information of many people to solve problems or collect data.
+Example: A map app can use reports from users to show traffic, accidents, or road closures.
+Reflection: I found it interesting that many small contributions can create something useful. It made me think about how apps decide which user reports are trustworthy.
+
+5.5 – Legal and Ethical Concerns
+Main idea: Programmers and users need to think about copyright, intellectual property, privacy, and responsible use of technology.
+Example: Using someone else’s image, music, or code without permission can break copyright rules.
+Reflection: I learned that creating digital work comes with responsibility. I still wonder how people can protect their own work online while still sharing ideas with others.
+
+5.6 – Safe Computing
+Main idea: Safe computing is about protecting personal data, devices, and accounts from security threats.
+Example: Strong passwords, two-factor authentication, and encryption can help protect accounts.
+Reflection: I realized that cybersecurity is important because so much personal information is stored online. It made me think about how one weak password can put a lot of private data at risk.
